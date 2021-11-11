@@ -916,3 +916,10 @@
 //
 // console.log(`Kolor o indeksie 0: ${kolory[0]}`)
 // console.log(`Kolor o indeksie 0: ${kolory[3]}`)
+
+// Zad 68    “Wypisywanie wszystkich elementów z tablicy”.
+//
+// const liczby = [5.43, 23.54, 23.5, 9.45, 7.23];
+//
+// console.log(`Wszystkie elementy w tablicy ${liczby}`)
+
