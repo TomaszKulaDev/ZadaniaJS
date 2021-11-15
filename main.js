@@ -385,7 +385,7 @@
 // }
 // search()
 
-// Zad 34  “Instrukcja warunkowa”.
+// Zad 34  “Instrukcja warunkowa &&”.
 //
 // function search() {
 //     const wartosc4 = 4;
@@ -910,6 +910,8 @@
 
 // -- METODY  --- OBIEKTY  ---   TABLICE -- //
 
+
+
 // Zad 67  “Uzyskiwanie dostępu do elementów tablicy”.
 //
 // const kolory = [`niebieski`, `czerwony`, `zielony`, `czarny`];
@@ -923,3 +925,72 @@
 //
 // console.log(`Wszystkie elementy w tablicy ${liczby}`)
 
+// Zad 69    “Operacje na elementach tablicy”.
+// const liczby_1 = [2, 3];
+// const liczby_2 = [45, 23];
+//
+// console.log(`Tablica o nazwie liczby_1 przed zamiana: ${liczby_1}`);
+// console.log(`Tablica o nazwie liczby_2 przed zamiana: ${liczby_2}`);
+//
+// const temp = liczby_1[0];
+// liczby_1[0] = liczby_2[1];
+// liczby_2[1] = temp;
+//
+// console.log(`Tablica o nazwie liczby_1 po zamianie: ${liczby_1}`);
+// console.log(`Tablica o nazwie liczby_2 po zamianie: ${liczby_2}`);
+
+// Zad 70  “Obliczenie średniej z elementów tablicy”.
+//
+// const oceny = [5, 3, 2, 3, 4];
+// const suma = oceny[0] + oceny[1] + oceny[2] + oceny[3] + oceny[4];
+// const srednia = suma / oceny.length;
+//
+// console.log(`Srednia ocen wynosi: ${srednia}`);
+
+// Zad 71  “Wyznaczanie ilości elementów w tablicy przy pomocy metody length”.
+//
+//     const owoce = ['Banan', 'Kiwi', 'Winogorono', 'Arbuz', 'Jabłko',
+//     'Pomarańcza', 'Granat', 'Mango', 'Melon', 'Cytryna'];
+//     console.log(`Ilość elementów w tablicy o nazwie owoce ${owoce.length}`)
+//
+//     const warzywa = ['Marchewka', 'Ogórek', 'Rzodkiewka', 'Cebula',
+//     'Kapusta', 'Szczypiorek', 'Fasolka'];
+//     console.log(`Ilość elementów w tablicy o nazwie owoce ${warzywa.length}`)
+
+// Zad 72  “Dodawanie oraz usuwanie elementów z tablicy przy pomocy metod pop() oraz push()”.
+//     const samochody = ['Audi', 'BMW', 'Mercedes', 'Volvo'];
+//     console.log(samochody)
+//
+//     samochody.pop()
+//     console.log(samochody)
+//
+//     samochody.push('Mazda')
+//     console.log(`Tablica samochodó ${samochody}`)
+
+// Zad 73   “Dodawanie oraz usuwanie elementów z tablicy przy pomocy metod shift() oraz unshift()”.
+//
+//     const samochody = ['Audi', 'BMW', 'Mercedes', 'Volvo'];
+//     samochody.shift();
+//     console.log(`Tabica samochodów ${samochody}`);
+//
+//
+//     samochody.unshift('Mazda')
+//     console.log(`Tabica samochodów ${samochody}`);
+
+// Zad 74 “Uzyskiwanie indeksu danego elementu z tablicy przy pomocy metody indexOf().
+//
+//     const warzywa = ['Marchewka', 'Ogórek', 'Rzodkiewka', 'Cebula', 'Kapusta', 'Szczypiorek', 'Fasolka'];
+//
+//     console.log(`Index elementu o nazwie Cebula to ${warzywa.indexOf('Cebula')}`)
+
+// Zad 75 Użyj metody splice na tablicy. Wytnij Mercedesa i Volvo.
+//
+//     const samochody = ['Audi', 'BMW', 'Mercedes', 'Volvo', 'Mazda', 'Fiat'];
+//     console.log(`Tablica samochodów ${samochody}`)
+//
+//     samochody.splice(2,2);
+//     console.log(`Tablica samochodów ${samochody}`)
+
+// Zad 76  “Operacje na tablicach”.
+
+    const samochody = ['Audi', 'BMW', 'Mercedes', 'Volvo', 'Mazda', 'Fiat'];
