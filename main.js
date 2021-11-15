@@ -984,13 +984,45 @@
 //     console.log(`Index elementu o nazwie Cebula to ${warzywa.indexOf('Cebula')}`)
 
 // Zad 75 Użyj metody splice na tablicy. Wytnij Mercedesa i Volvo.
-//
-//     const samochody = ['Audi', 'BMW', 'Mercedes', 'Volvo', 'Mazda', 'Fiat'];
-//     console.log(`Tablica samochodów ${samochody}`)
-//
-//     samochody.splice(2,2);
-//     console.log(`Tablica samochodów ${samochody}`)
+ //
+ //    const samochody = ['Audi', 'BMW', 'Mercedes', 'Volvo', 'Mazda', 'Fiat'];
+ //    console.log(`Tablica samochodów ${samochody}`)
+ //
+ //    samochody.splice(2,2);
+ //    console.log(`Tablica samochodów ${samochody}`)
 
-// Zad 76  “Operacje na tablicach”.
+// Zad 76  “Operacje na tablicach zamiana wartości elementów tablicy”.
+//
+// const samochody = ['Audi', 'BMW', 'Mercedes', 'Volvo', 'Mazda', 'Fiat'];
+//
+// console.log(`Tablica samochodow: ${samochody}`);
+// samochody[2] = 'Opel';
+// samochody[4] = 'Nissan';
+// console.log(`Tablica samochodow: ${samochody}`);
 
-    const samochody = ['Audi', 'BMW', 'Mercedes', 'Volvo', 'Mazda', 'Fiat'];
+// Zad 77  “Połączenie łączenie dwóch tablic z wykorzystaniem metody concat()”.
+//
+// const samochody_1 = ['Audi', 'BMW', 'Mercedes'];
+// const samochody_2 = ['Volvo', 'Mazda', 'Fiat']
+//
+// const samochody = samochody_1.concat(samochody_2);
+//
+// console.log(`Połączono 2 stare i utworzono 1 nową tablice. ${samochody}`)
+
+// Zad 78  “Wypełnianie tablicy konkretną wartością przy pomocy metody fill()”.
+//
+//     const liczby = [1, 2, 3, 4, 5, 6, 7, 8];
+//     console.log(`Tablica Liczb: ${liczby}`)
+//     liczby.fill(4);
+//     console.log(`Tablica Liczb: ${liczby}`)
+
+// Zad 88  “Wypełnianie tablicy konkretną wartością przy pomocy metody fill() z dwoma parametrami”.
+//
+//     const liczby = [1, 2, 3, 4, 5, 6, 7, 8];
+//     console.log(`Tablica Liczb: ${liczby}`)
+//     liczby.fill(4,4);
+//     console.log(`Tablica Liczb: ${liczby}`)
+//     liczby.fill(2,2,5);
+//     console.log(`Tablica Liczb: ${liczby}`)
+
+// 89  “Przefiltrowanie elementów z tablicy przy pomocy metody filter()”.
