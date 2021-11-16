@@ -1049,4 +1049,43 @@
 //     console.log(` Marka BMW znajduje sie w tablicy ? ${value_1}`)
 
 
-// Zad 92
+// Zad 92  “Stosowanie określonego separatora przy wypisywaniu elementów z tablicy przy pomocy metody join()”.
+//
+//     const samochody = ['Audi', 'BMW', 'Mercedes', 'Volvo', 'Mazda', 'Fiat'];
+//
+//
+//     console.log(`Wypisywanie elementów przed okresleniem separatora ${samochody.join()}`)
+//     console.log(`Wypisywanie elementów przed okresleniem separatora ${samochody.join('-')}`)
+
+// Zad 93  “Zwiększanie każdej wartości w tablicy przy pomocy metody map()”.
+//
+//     const liczby = [4, 6, 9, 23, 56, 14, 75];
+//
+//     console.log(`Tablica główna ${liczby}`)
+//
+//     const mapa_liczby = liczby.map( value => value + 4)
+//
+//     console.log(`Wszystkie elementy zwiekszone z Tablicy o 4 ---- ${mapa_liczby}`);
+
+// Zad 94  “Sortowanie tablic przy pomocy metody sort()”.
+//
+//     const liczby = [4, 6, 9, 23, 56, 14, 75];
+//     console.log(`${liczby.sort()}`)
+//
+//     const samochody = ['Audi', 'BMW', 'Mercedes', 'Volvo', 'Mazda', 'Fiat'];
+//     samochody.sort()
+//     console.log(` Sorted out ! ${samochody}`)
+
+// Zad 95   “Utworzenie stworzenie tablicy znaków z istniejącego ciągu znaków przy pomocy Array.from() ”.
+//
+//       console.log(Array.from('Mercedes'))
+//
+//       console.log(Array.from('foo'));
+//       expected output: Array ["f", "o", "o"]
+//
+//      console.log(Array.from([1, 2, 3], x => x + x));
+//      expected output: Array [2, 4, 6]
+//
+//      const tablica_znakow = Array.from('Mercedes');
+//
+//      console.log(`Utworzona tablica: ${tablica_znakow}`);
