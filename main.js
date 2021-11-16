@@ -1025,4 +1025,28 @@
 //     liczby.fill(2,2,5);
 //     console.log(`Tablica Liczb: ${liczby}`)
 
-// 89  “Przefiltrowanie elementów z tablicy przy pomocy metody filter()”.
+// Zad 89  “Przefiltrowanie elementów z tablicy przy pomocy metody filter()”.
+//
+//     const samochody = ['Audi', 'BMW', 'Mercedes', 'Volvo', 'Mazda', 'Fiat'];
+//     const smallCars = samochody.filter(samochody => samochody.length <= 4)
+//      =========================================================================
+//     console.log(`Przefiltrowana tablica z nazwami równymi oraz krotszymi niz 4 znaki ${smallCars}`)
+//
+//     const largeCars = samochody.filter(samochody => samochody.length > 4)
+//     console.log(`Przefiltrowana tablica z nazwami wiekszymi niz 4 znaki ${largeCars}`)
+
+// Zad 90  “Znalezienie najbliższej liczby od wskazanej przy pomocy metody find()”.
+//
+//     const liczby = [4, 6, 9, 23, 56, 14, 75];
+//     const liczba = liczby.find(element => element > 14)
+//     console.log(`Znalezlismy liczbe:${liczba}`)
+
+// Zad 91  “Sprawdzenie czy dana wartość znajduje się w tablicy używając includes() ”.
+//
+// const samochody = ['Audi', 'BMW', 'Mercedes', 'Volvo', 'Mazda', 'Fiat'];
+//
+//     const value_1 = samochody.includes(`BMW`)
+//     console.log(` Marka BMW znajduje sie w tablicy ? ${value_1}`)
+
+
+// Zad 92
