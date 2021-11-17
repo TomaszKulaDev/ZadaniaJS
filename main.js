@@ -911,7 +911,6 @@
 // -- METODY  --- OBIEKTY  ---   TABLICE -- //
 
 
-
 // Zad 67  “Uzyskiwanie dostępu do elementów tablicy”.
 //
 // const kolory = [`niebieski`, `czerwony`, `zielony`, `czarny`];
@@ -984,12 +983,12 @@
 //     console.log(`Index elementu o nazwie Cebula to ${warzywa.indexOf('Cebula')}`)
 
 // Zad 75 Użyj metody splice na tablicy. Wytnij Mercedesa i Volvo.
- //
- //    const samochody = ['Audi', 'BMW', 'Mercedes', 'Volvo', 'Mazda', 'Fiat'];
- //    console.log(`Tablica samochodów ${samochody}`)
- //
- //    samochody.splice(2,2);
- //    console.log(`Tablica samochodów ${samochody}`)
+//
+//    const samochody = ['Audi', 'BMW', 'Mercedes', 'Volvo', 'Mazda', 'Fiat'];
+//    console.log(`Tablica samochodów ${samochody}`)
+//
+//    samochody.splice(2,2);
+//    console.log(`Tablica samochodów ${samochody}`)
 
 // Zad 76  “Operacje na tablicach zamiana wartości elementów tablicy”.
 //
@@ -1016,7 +1015,7 @@
 //     liczby.fill(4);
 //     console.log(`Tablica Liczb: ${liczby}`)
 
-// Zad 88  “Wypełnianie tablicy konkretną wartością przy pomocy metody fill() z dwoma parametrami”.
+// Zad 79  “Wypełnianie tablicy konkretną wartością przy pomocy metody fill() z dwoma parametrami”.
 //
 //     const liczby = [1, 2, 3, 4, 5, 6, 7, 8];
 //     console.log(`Tablica Liczb: ${liczby}`)
@@ -1025,7 +1024,7 @@
 //     liczby.fill(2,2,5);
 //     console.log(`Tablica Liczb: ${liczby}`)
 
-// Zad 89  “Przefiltrowanie elementów z tablicy przy pomocy metody filter()”.
+// Zad 80  “Przefiltrowanie elementów z tablicy przy pomocy metody filter()”.
 //
 //     const samochody = ['Audi', 'BMW', 'Mercedes', 'Volvo', 'Mazda', 'Fiat'];
 //     const smallCars = samochody.filter(samochody => samochody.length <= 4)
@@ -1035,13 +1034,13 @@
 //     const largeCars = samochody.filter(samochody => samochody.length > 4)
 //     console.log(`Przefiltrowana tablica z nazwami wiekszymi niz 4 znaki ${largeCars}`)
 
-// Zad 90  “Znalezienie najbliższej liczby od wskazanej przy pomocy metody find()”.
+// Zad 81  “Znalezienie najbliższej liczby od wskazanej przy pomocy metody find()”.
 //
 //     const liczby = [4, 6, 9, 23, 56, 14, 75];
 //     const liczba = liczby.find(element => element > 14)
 //     console.log(`Znalezlismy liczbe:${liczba}`)
 
-// Zad 91  “Sprawdzenie czy dana wartość znajduje się w tablicy używając includes() ”.
+// Zad 82  “Sprawdzenie czy dana wartość znajduje się w tablicy używając includes() ”.
 //
 // const samochody = ['Audi', 'BMW', 'Mercedes', 'Volvo', 'Mazda', 'Fiat'];
 //
@@ -1049,7 +1048,7 @@
 //     console.log(` Marka BMW znajduje sie w tablicy ? ${value_1}`)
 
 
-// Zad 92  “Stosowanie określonego separatora przy wypisywaniu elementów z tablicy przy pomocy metody join()”.
+// Zad 83  “Stosowanie określonego separatora przy wypisywaniu elementów z tablicy przy pomocy metody join()”.
 //
 //     const samochody = ['Audi', 'BMW', 'Mercedes', 'Volvo', 'Mazda', 'Fiat'];
 //
@@ -1057,7 +1056,7 @@
 //     console.log(`Wypisywanie elementów przed okresleniem separatora ${samochody.join()}`)
 //     console.log(`Wypisywanie elementów przed okresleniem separatora ${samochody.join('-')}`)
 
-// Zad 93  “Zwiększanie każdej wartości w tablicy przy pomocy metody map()”.
+// Zad 84  “Zwiększanie każdej wartości w tablicy przy pomocy metody map()”.
 //
 //     const liczby = [4, 6, 9, 23, 56, 14, 75];
 //
@@ -1067,7 +1066,7 @@
 //
 //     console.log(`Wszystkie elementy zwiekszone z Tablicy o 4 ---- ${mapa_liczby}`);
 
-// Zad 94  “Sortowanie tablic przy pomocy metody sort()”.
+// Zad 85  “Sortowanie tablic przy pomocy metody sort()”.
 //
 //     const liczby = [4, 6, 9, 23, 56, 14, 75];
 //     console.log(`${liczby.sort()}`)
@@ -1076,7 +1075,7 @@
 //     samochody.sort()
 //     console.log(` Sorted out ! ${samochody}`)
 
-// Zad 95   “Utworzenie stworzenie tablicy znaków z istniejącego ciągu znaków przy pomocy Array.from() ”.
+// Zad 86   “Utworzenie stworzenie tablicy znaków z istniejącego ciągu znaków przy pomocy Array.from() ”.
 //
 //       console.log(Array.from('Mercedes'))
 //
@@ -1089,3 +1088,41 @@
 //      const tablica_znakow = Array.from('Mercedes');
 //
 //      console.log(`Utworzona tablica: ${tablica_znakow}`);
+
+// -------- OBIEKTY ---------- //
+
+// Zad 87 "Tworzenie nowego obiektu przy pomocy literału obiektowego"
+//
+// const samochod = {
+//     marka: 'Audi',
+//     model: 'A5',
+//     spalanie: 8
+//
+// }
+//
+// console.log(samochod.marka, samochod.model, samochod.spalanie)
+
+// Zad 88  "Tworzenie nowego obiektu przy pomocy konstruktora obiektów"
+//
+// const rower = new Object();
+// {
+//     rower.model = 'Kross';
+//     rower.rozmiarRamy = 'L';
+//     rower.rozmiarKola = 27.5;
+//     console.log(rower.model, rower.rozmiarKola, rower.rozmiarRamy);
+// }
+
+// Zad 89 "Tworzenie nowego obiektu przy pomocy konstruktora"
+//
+// function Smartfon(model, wyswietlacz, pamiec_ram) {
+//     this.model = model;
+//     this.wyswietlacz = wyswietlacz;
+//     this.pamiec_ram = pamiec_ram;
+// }
+//
+// const smartfon = new Smartfon ('Galaxi',6.45,64);
+//
+// console.log(smartfon.model, smartfon.pamiec_ram, smartfon.wyswietlacz)
+
+
+// Zad 90
